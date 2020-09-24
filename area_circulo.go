@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 )
 
 func main() {
@@ -10,7 +11,7 @@ func main() {
 	fmt.Println("Ingresa el radio del circulo: ")
 	fmt.Scanf("%f", &radio)
 
-	//res := (pi * math.Pow(radio, 2))
-	//fmt.Println("El area del circulo es: ", res)
+	res := (pi * math.Pow(radio, 2))
+	fmt.Println("El area del circulo es: ", res)
 
 }
